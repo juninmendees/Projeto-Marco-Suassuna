@@ -1,18 +1,29 @@
 .marcador{
     background: #abeafe;
-    border: 1px solid #fff;
+    border: 5px solid #000;
 }
 
 .marcador2{
     background: #caefac;
-    border: 1px solid #fff;
+    border: 5px solid #ccc;
 }
 
-.marcado3{
-    background: #cccccc;
-    border: 1px solid #fff;
+.marcador3{
+    background: #aaafff;
+    border: 5px solid #fff;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 100%;
 }
 
 body{
-    /*background: #f6f6f6;
+    background: #f6f6f6;
+}
+    
+.font-menu{
+    font-family: "Bebas Neue";
+    font-size: 1.1rem;
+    font-weight: bolder;   
 }
