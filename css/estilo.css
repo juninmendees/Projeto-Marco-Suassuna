@@ -1,17 +1,8 @@
 .marcador{
     background: #abeafe;
-    border: 5px solid #000;
+    border: 2px solid #000;
 }
 
-.marcador2{
-    background: #caefac;
-    border: 5px solid #ccc;
-}
-
-.marcador3{
-    background: #aaafff;
-    border: 5px solid #fff;
-}
 
 .img-fluid {
   max-width: 100%;
@@ -19,11 +10,30 @@
 }
 
 body{
-    background: #f6f6f6;
+    background: #fff;
 }
     
 .font-menu{
     font-family: "Bebas Neue";
     font-size: 1.1rem;
     font-weight: bolder;   
+}
+
+.container-menu{
+  width: 80%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0px #000 solid;
+}
+.container-img-menu{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+}
+
+.nav-item{
+    margin: 0 20px;
 }
