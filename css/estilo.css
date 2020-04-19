@@ -37,3 +37,22 @@ body{
 .nav-item{
     margin: 0 20px;
 }
+
+hr {
+   height: 20px;
+   color: aqua;
+    }
+
+#sobre{
+  width: 80%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0px #000 solid;
+ 
+  height: 500px;
+ 
+  margin-top: 100px;
+  
+}
