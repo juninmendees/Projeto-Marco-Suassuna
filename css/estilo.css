@@ -16,6 +16,10 @@
 body{
     background: #fff;
 }
+p{
+    font-family: "Calibri","Helvética","Arial";
+    font-size: 1.2rem;
+}
     
 .font-menu{
     font-family: "Futura Md BT","Bebas Neue";
@@ -54,11 +58,12 @@ hr {
   margin-right: auto;
   margin-left: auto;
   border: 0px #000 solid;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .img-400-400 {
-   width: 400px; // a altura se adequa proporcionalmente
+   width: 400px;
+   
 }
 
 .img-galeria {
@@ -92,3 +97,18 @@ img{
 }
 
 
+
+/*maps*/
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
