@@ -18,7 +18,7 @@ if (isset($_POST['BTEnvia'])) {
  //==================================================== 
  $email_destinatario = "juniormendesjp@gmail.com"; // pode ser qualquer email que receberá as mensagens
  $email_reply = "$email"; 
- $email_assunto = "Contato formmail"; // Este será o assunto da mensagem
+ $email_assunto = "Contato - Site Maro Suassuana"; // Este será o assunto da mensagem
  //====================================================
  
  //Monta o Corpo da Mensagem
@@ -43,5 +43,7 @@ if (isset($_POST['BTEnvia'])) {
  echo "</b>Falha no envio do E-Mail!</b>"; } 
  //====================================================
 } 
+
 ?>
+<meta http-equiv="refresh" content="3; url=index.html">
  
