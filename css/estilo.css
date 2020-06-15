@@ -41,6 +41,10 @@ p{
     padding: 0;
     width: 30px;
 }
+.dropdown-menu{
+    font-size:12px; 
+    font-family: "Futura Md BT","Bebas Neue";
+}
 
 .nav-item{
     margin: 0 20px;
