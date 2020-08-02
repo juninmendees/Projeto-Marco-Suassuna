@@ -1,0 +1,5 @@
+[0715/144044.689:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0715/144045.169:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0715/170027.321:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0716/081835.092:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0717/163716.286:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)

@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['BTEnvia'])) {
+
  
  //Variaveis de POST, Alterar somente se necessário 
  //====================================================
@@ -11,22 +11,22 @@ if (isset($_POST['BTEnvia'])) {
  
  //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
  //==================================================== 
- $email_remetente = "contato@vivabemsaudavel.life"; // deve ser uma conta de email do seu dominio 
+ $email_remetente = "contato@marcosuassuna.com"; // deve ser uma conta de email do seu dominio 
  //====================================================
  
  //Configurações do email, ajustar conforme necessidade
  //==================================================== 
- $email_destinatario = "juniormendesjp@gmail.com"; // pode ser qualquer email que receberá as mensagens
+ $email_destinatario = "marcosuassuna@gmail.com "; // pode ser qualquer email que receberá as mensagens
  $email_reply = "$email"; 
- $email_assunto = "Contato - Site Maro Suassuana"; // Este será o assunto da mensagem
+ $email_assunto = "Contato - Site Marco Suassuana"; // Este será o assunto da mensagem
  //====================================================
  
  //Monta o Corpo da Mensagem
  //====================================================
- $email_conteudo = "Nome = $nome \n"; 
- $email_conteudo .= "Email = $email \n";
- $email_conteudo .= "Assunto = $assunto \n"; 
- $email_conteudo .= "Mensagem = $mensagem \n"; 
+ $email_conteudo = "Remetente: $nome \n"; 
+ $email_conteudo .= "Email: $email \n";
+ $email_conteudo .= "Assunto: $assunto \n\n"; 
+ $email_conteudo .= "Mensagem: \n $mensagem \n"; 
  //====================================================
  
  //Seta os Headers (Alterar somente caso necessario) 
@@ -42,7 +42,7 @@ if (isset($_POST['BTEnvia'])) {
  else{ 
  echo "</b>Falha no envio do E-Mail!</b>"; } 
  //====================================================
-} 
+ 
 
 ?>
 <meta http-equiv="refresh" content="3; url=index.html">
